@@ -1,52 +1,3 @@
-mkdir code
-ls
-rm -d code
-ls
-cd Development
-mkdir code
-cd ~/Development/code
-ls
-git clone git@github.com:brianratemo/phase-0-completing-assignments.git
-pwd
-ls
-cd Development
-mkdir code
-git clone
-git clone git@github.com:brianratemo/phase-0-completing-assignments.git
-npm install
-rm -d
-rm -d/Development
--r
-ls
-rm
--d
-ls -1
-touch Profits
-ls
-rm Profits
-ls
-rm Development
-rm -r ~/Development/package-lock.json
-rm -r ~/Development
-ls
-rm -r ~/package-lock.json
-ls
-rm -v
-ls
-echo "Hi world"
-echo "i'm printing to the screen" >> Profits.txt
-echo $PATH
-man ps
-ssh-keygen -t rsa -b 4096 -C "your_ratemobrian0@gmail.com"
- ssh-keygen -t rsa -b 4096 -C "your_ratemobrian0@gmail.com"
-git
-git version
-git key
-git help
-git help git
-sudo apt-get remove git
-git version
-sudo apt install git
 run apt-update
 sudo apt-update git
 sudo apt-update
@@ -498,3 +449,52 @@ explorer.exe my_html list
 explorer.exe my_list.html
 exploere.exe index.html
 explorer.exe index.html
+touch test.html
+code .
+explorer.exe test.html
+explorer.exe index.html
+explorer.exe index.html
+explorer.exe index.html
+explorer.exe test.html
+explorer.exe index.html
+explorer.exe test.html
+explorer.exe test.html
+explorer.exe test.html
+explorer.exe index.html
+explorer.exe index.html
+explorer.exe index.html
+explorer.exe index.html
+explorer.exe test.html
+mv test.html ./href
+mv href ./test.html
+mv href breaker
+mv href ~/breaker
+mv attribute breaker
+mv breaker ~/circuit
+rm -d circuit
+rm =d breaker
+rm -d href
+touch brian 1
+touch brian 2
+copy -r brian 1 brian 2
+copy -r brian 1 ~/brian 2
+copy -r kevo brian
+cp -r kevo brian
+mv brian kevo
+mv kevo Hotforex
+mv Hotforex Hotforex.html
+explorer.exe Hotforex.html
+touch hot2
+code .
+mv hot1 hot1.html
+mv hot1 ./hot1.html
+mv hot2 hot2.html
+code .
+explorer.exe hot2.html
+mkdir 
+phase-0-html-lists-labls
+mkdir 
+phase-0-html-lists-lab
+code .
+touch lab lists
+code .
