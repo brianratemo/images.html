@@ -1,11 +1,3 @@
-ls 
-cd code
-ls
-cd Development
-mkdir code
-cd code
-ls
-ls -1
 mkdir code
 ls
 rm -d code
@@ -497,4 +489,12 @@ code .
 touch attribute.html
 code .
 open index.html
+explorer.exe index.html
+explorer.exe attribute.html
+explorer.exe attribute.html
+pwd
+/attribute.html
+explorer.exe my_html list
+explorer.exe my_list.html
+exploere.exe index.html
 explorer.exe index.html
