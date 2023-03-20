@@ -1,0 +1,8 @@
+[Trace 17:24:10.883] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/brantellah/README.md
+[Trace 17:24:10.885] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/brantellah/README.md
+[Trace 17:24:10.887] Server: connection.languages.diagnostics.on: file:///home/brantellah/README.md
+[Trace 17:24:10.890] Server: connection.languages.diagnostics.on: file:///home/brantellah/README.md
+[Trace 17:24:11.086] DocumentSymbolProvider: provideDocumentSymbols — file:///home/brantellah/README.md 1
+[Debug 17:24:11.086] LinkProvider: compute - file:///home/brantellah/README.md
+[Debug 17:24:11.258] TableOfContentsProvider: create - file:///home/brantellah/README.md
+[Debug 17:24:11.289] MdFoldingProvider: provideFoldingRanges — file:///home/brantellah/README.md 1

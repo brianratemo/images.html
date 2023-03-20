@@ -1,0 +1,16 @@
+2023-03-18 22:04:42.573 [info] Extension host with pid 13217 started
+2023-03-18 22:04:42.588 [info] Lock '/home/brantellah/.vscode-server/data/User/workspaceStorage/8c5449ed4bbb53bf026dfe852c3c11d3/vscode.lock': Lock acquired.
+2023-03-18 22:04:42.603 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-18 22:04:42.604 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-03-18 22:04:42.638 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-18 22:04:42.653 [info] Eager extensions activated
+2023-03-18 22:04:42.653 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-18 22:04:42.654 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-18 22:04:45.765 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-03-18 22:04:49.844 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-03-18 22:04:50.638 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-03-18 22:05:13.537 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-03-18 22:38:19.580 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-18 22:38:19.581 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-18 22:38:19.581 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-18 22:53:44.967 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

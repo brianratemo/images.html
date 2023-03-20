@@ -1,0 +1,74 @@
+[2023-03-14 12:01:35] __rvm_package_extract
+__rvm_package_extract () 
+{ 
+    rvm_debug __rvm_package_extract:$#: "$@";
+    \typeset __extract_src __extract_target __tempdir __path __file __return;
+    __extract_src="$1";
+    __extract_target="$2";
+    shift 2;
+    __return=0;
+    __tempdir="$( TMPDIR="${rvm_tmp_path}" mktemp -d -t rvm-tmp.XXXXXXXXX )";
+    __rvm_package_extract_run "$__extract_src" "$__tempdir" "$@" || __return=$?;
+    if (( __return == 0 )); then
+        for __path in "$__tempdir"/*;
+        do
+            __file="${__path##*/}";
+            if [[ -n "${__file}" && -e "$__extract_target/${__file}" ]]; then
+                \command \rm -rf "$__extract_target/${__file}" || __return=$?;
+            fi;
+            \command \mv -f "${__path}" "$__extract_target/" || __return=$?;
+        done;
+    fi;
+    if [[ -n "$__tempdir" ]]; then
+        \command \rm -rf "$__tempdir";
+    fi;
+    return $__return
+}
+current path: /home/brantellah/.rvm/src
+PATH=/bin:/home/brantellah/.rvm/bin:/home/brantellah/.nvm/versions/node/v19.7.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2204.1.8.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/brantellah/.rvm/bin
+command(3): __rvm_package_extract /home/brantellah/.rvm/archives/ruby-2.7.4.tar.bz2 /home/brantellah/.rvm/tmp/rvm_src_10
+++ rvm_debug __rvm_package_extract:2: /home/brantellah/.rvm/archives/ruby-2.7.4.tar.bz2 /home/brantellah/.rvm/tmp/rvm_src_10
+++ ((  0  ))
+++ return 0
+++ typeset __extract_src __extract_target __tempdir __path __file __return
+++ __extract_src=/home/brantellah/.rvm/archives/ruby-2.7.4.tar.bz2
+++ __extract_target=/home/brantellah/.rvm/tmp/rvm_src_10
+++ shift 2
+++ __return=0
++++ TMPDIR=/home/brantellah/.rvm/tmp
++++ mktemp -d -t rvm-tmp.XXXXXXXXX
+++ __tempdir=/home/brantellah/.rvm/tmp/rvm-tmp.bPdtziR0u
+++ __rvm_package_extract_run /home/brantellah/.rvm/archives/ruby-2.7.4.tar.bz2 /home/brantellah/.rvm/tmp/rvm-tmp.bPdtziR0u
+++ typeset __extract_run_src __extract_run_target __exclude_elements
+++ __extract_run_src=/home/brantellah/.rvm/archives/ruby-2.7.4.tar.bz2
+++ __extract_run_target=/home/brantellah/.rvm/tmp/rvm-tmp.bPdtziR0u
+++ shift 2
+++ __exclude_elements=()
+++ [[    != *\ \-\-\n\o\-\s\a\m\e\-\o\w\n\e\r\ * ]]
+++ __rvm_tar --help
+++ __rvm_grep -- --no-same-owner
+++ GREP_OPTIONS=
+++ command grep -- --no-same-owner
+++ rvm_tar_options=--no-same-owner
+++ [[ -d /home/brantellah/.rvm/tmp/rvm-tmp.bPdtziR0u ]]
+++ case "$__extract_run_src" in
+++ __map_tar_excludes
+++ typeset __exclude_element
+++ [[ -n '' ]]
+++ __rvm_tar -xjf /home/brantellah/.rvm/archives/ruby-2.7.4.tar.bz2 -C /home/brantellah/.rvm/tmp/rvm-tmp.bPdtziR0u --no-same-owner
+++ tar -xjf /home/brantellah/.rvm/archives/ruby-2.7.4.tar.bz2 -C /home/brantellah/.rvm/tmp/rvm-tmp.bPdtziR0u --no-same-owner
+++ __rvm_fix_group_permissions /home/brantellah/.rvm/tmp/rvm-tmp.bPdtziR0u/ruby-2.7.4
+++ umask -S
+++ __rvm_grep g=rw
+++ GREP_OPTIONS=
+++ command grep g=rw
+++ return 1
+++ ((  __return == 0  ))
+++ for __path in "$__tempdir"/*
+++ __file=ruby-2.7.4
+++ [[ -n ruby-2.7.4 ]]
+++ [[ -e /home/brantellah/.rvm/tmp/rvm_src_10/ruby-2.7.4 ]]
+++ command mv -f /home/brantellah/.rvm/tmp/rvm-tmp.bPdtziR0u/ruby-2.7.4 /home/brantellah/.rvm/tmp/rvm_src_10/
+++ [[ -n /home/brantellah/.rvm/tmp/rvm-tmp.bPdtziR0u ]]
+++ command rm -rf /home/brantellah/.rvm/tmp/rvm-tmp.bPdtziR0u
+++ return 0

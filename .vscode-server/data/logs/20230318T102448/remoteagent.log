@@ -1,0 +1,15 @@
+2023-03-18 10:24:48.492 [info] 
+
+
+
+
+2023-03-18 10:24:48.519 [info] Extension host agent started.
+2023-03-18 10:24:48.850 [info] [127.0.0.1][8705f52e][ManagementConnection] New connection established.
+2023-03-18 10:24:49.613 [info] [127.0.0.1][734f25c7][ExtensionHostConnection] New connection established.
+2023-03-18 10:24:49.834 [info] [127.0.0.1][734f25c7][ExtensionHostConnection] <11246> Launched Extension Host Process.
+2023-03-18 14:55:41.205 [warning] No ptyHost heartbeat after 6 seconds
+2023-03-18 14:55:55.739 [warning] No ptyHost heartbeat after 6 seconds
+2023-03-18 21:56:54.552 [warning] No ptyHost heartbeat after 6 seconds
+2023-03-18 22:04:41.793 [info] [127.0.0.1][b0989e8e][ManagementConnection] New connection established.
+2023-03-18 22:04:42.179 [info] [127.0.0.1][4b94b1dd][ExtensionHostConnection] New connection established.
+2023-03-18 22:04:42.184 [info] [127.0.0.1][4b94b1dd][ExtensionHostConnection] <13217> Launched Extension Host Process.

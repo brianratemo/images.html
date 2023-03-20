@@ -1,0 +1,29 @@
+[Trace 17:25:01.078] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///mnt/c/Users/HP/README.md
+[Trace 17:25:01.079] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///mnt/c/Users/HP/README.md
+[Trace 17:25:01.081] Server: connection.languages.diagnostics.on: file:///mnt/c/Users/HP/README.md
+[Trace 17:25:01.084] Server: connection.languages.diagnostics.on: file:///mnt/c/Users/HP/README.md
+[Trace 17:25:01.266] DocumentSymbolProvider: provideDocumentSymbols — file:///mnt/c/Users/HP/README.md 1
+[Debug 17:25:01.267] LinkProvider: compute - file:///mnt/c/Users/HP/README.md
+[Debug 17:25:01.373] TableOfContentsProvider: create - file:///mnt/c/Users/HP/README.md
+[Debug 17:25:02.745] MdFoldingProvider: provideFoldingRanges — file:///mnt/c/Users/HP/README.md 1
+[Trace 18:05:36.713] Server: connection.languages.diagnostics.on: file:///mnt/c/Users/HP/README.md
+[Trace 18:05:57.500] Server: connection.languages.diagnostics.on: file:///mnt/c/Users/HP/README.md
+[Debug 18:05:57.649] MdFoldingProvider: provideFoldingRanges — file:///mnt/c/Users/HP/README.md 1
+[Trace 18:06:36.534] Server: connection.languages.diagnostics.on: file:///mnt/c/Users/HP/README.md
+[Trace 05:05:50.381] Server: connection.languages.diagnostics.on: file:///mnt/c/Users/HP/README.md
+[Trace 05:05:50.381] VsCodeClientWorkspace: TextDocument.onDidClose: file:///mnt/c/Users/HP/README.md
+[Trace 05:05:50.381] VsCodeClientWorkspace: deleteDocument: file:///mnt/c/Users/HP/README.md
+[Trace 05:10:23.123] Server: connection.languages.diagnostics.on: file:///mnt/c/Users/HP/README.md
+[Trace 05:10:23.159] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///mnt/c/Users/HP/README.md
+[Trace 05:10:23.159] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///mnt/c/Users/HP/README.md
+[Trace 05:10:23.160] Server: connection.languages.diagnostics.on: file:///mnt/c/Users/HP/README.md
+[Trace 05:10:23.160] DocumentSymbolProvider: provideDocumentSymbols — file:///mnt/c/Users/HP/README.md 1
+[Debug 05:10:23.160] LinkProvider: compute - file:///mnt/c/Users/HP/README.md
+[Trace 05:10:23.162] Server: connection.languages.diagnostics.on: file:///mnt/c/Users/HP/README.md
+[Debug 05:10:23.164] TableOfContentsProvider: create - file:///mnt/c/Users/HP/README.md
+[Debug 05:10:23.364] MdFoldingProvider: provideFoldingRanges — file:///mnt/c/Users/HP/README.md 1
+[Trace 05:10:25.286] Server: connection.languages.diagnostics.on: file:///mnt/c/Users/HP/README.md
+[Trace 05:10:26.513] Server: connection.languages.diagnostics.on: file:///mnt/c/Users/HP/README.md
+[Debug 05:10:26.689] MdFoldingProvider: provideFoldingRanges — file:///mnt/c/Users/HP/README.md 1
+[Trace 05:10:28.827] VsCodeClientWorkspace: TextDocument.onDidClose: file:///mnt/c/Users/HP/README.md
+[Trace 05:10:28.827] VsCodeClientWorkspace: deleteDocument: file:///mnt/c/Users/HP/README.md
