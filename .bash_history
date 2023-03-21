@@ -1,17 +1,3 @@
-run apt-update
-sudo apt-update git
-sudo apt-update
-git version
-sudo apt install git
-pwd
-ls
-rm -r ~/Profits.txt
-ls
-pwd
-mkdir Development
-ls
-cd ~
-mkdir Development
 cd Development
 ls
 mkdir code
@@ -498,3 +484,17 @@ phase-0-html-lists-lab
 code .
 touch lab lists
 code .
+touch html.list
+code .
+mv html.list list.html
+explorer.exe index.html
+touch shaffie
+code .
+mv shaffie shaffie.html
+code .
+explorer.exe shaffiel.html
+explorer.exe shaffie.html
+explorer.exe shafie.html
+explorer.exe shaffie.html
+clone
+git clone
