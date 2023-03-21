@@ -1,7 +1,3 @@
-cd Development
-ls
-mkdir code
-cd code
 ls
 cd ~/Development/code
 git clone git@github.com:brianratemo/phase-0-completing-assignments.git
@@ -498,3 +494,7 @@ explorer.exe shafie.html
 explorer.exe shaffie.html
 clone
 git clone
+explorer.exe shaffie.html
+cd phase-0-html-images-lab/
+mkdir phase-0-html-images-lab
+code .
