@@ -1,0 +1,38 @@
+h1 {
+    color: black;
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    align-items: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+#main-header {
+    background-color: gray;
+}
+a:link {
+    background-color: gray;
+}
+
+
+p {
+    text-align:center;
+
+}
+
+footer {
+    background-color: red;
+    float: left;
+    text-align: center;
+    width: 25%;
+}
