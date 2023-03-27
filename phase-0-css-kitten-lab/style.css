@@ -1,0 +1,12 @@
+
+.positioned {
+    position: static;
+background: yellow;
+padding-top: 5%;
+padding-bottom: 5%;
+    padding: 100%;
+    top: 70px;
+    bottom: 70px;
+
+
+}
